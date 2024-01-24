@@ -1,0 +1,40 @@
+.instagram{
+    .title4{
+        h5{
+            font-size: 12px;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: var(--bg-200);
+            color: var(--text-700);
+            display: inline-block;
+            border-radius: 50px;
+            letter-spacing: 2px;
+        }
+        h2{
+            // margin-top: 20px;
+            font-size: 50px;
+            font-size: 40px;
+            // margin-bottom: 50px;
+            background-image: var(--gradient-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            // display: inline-block;
+        }
+    }
+    .news{
+        h5{
+            font-size: 18px;
+            // text-align: center;
+            color: var(--heading-text);
+            display: flex;
+            align-items: center;
+             margin-left: auto;
+             padding: 40px 0px;
+            // display: flex;
+            // align-content: flex-end;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    }
+}

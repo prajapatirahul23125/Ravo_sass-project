@@ -1,0 +1,98 @@
+.footer{
+    padding-bottom: 0;
+    .footer-logo{
+        img{
+            max-width: 100px;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 15px;
+            margin-bottom: 30px;
+            line-height: 2;
+        }
+    }
+    .footer-icon{
+        ul{
+            li{
+                list-style: none;
+                a{
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    // padding: 10px;
+                    display: inline-block;
+                    text-align: center;
+                    border: 1px solid #eee;
+                    border-radius: 50%;
+                    i{
+                        color: var(--black);
+                    }
+                }
+            }
+        }
+    }
+    .footer-containt{
+        h4{
+            font-size: 18px;
+            color: var(--heading-text);
+            margin-bottom: 30px;
+        }
+        p{
+            color: var(--heading-text);
+            margin-bottom: 15px;
+        }
+        a{
+            display: block;
+            margin-bottom: 10px;
+            color: var(--heading-text);
+            text-decoration: underline;
+
+        }
+        span{
+            display: block;
+            font-weight: 600;
+            font-size: 18px;
+            background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .insta-img{
+            img{
+                max-width: 74px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .copyright{
+        padding-top: 50px;
+        padding-bottom: 40px;
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                a{
+                    font-size: 13px;
+                    color: var(--heading-text);
+                    display: block;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+    .copy{
+        padding-top: 50px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: end;
+        span{
+            font-size: 13px;
+            p{
+                display: inline-block;
+                font-size: 13px;
+                background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}

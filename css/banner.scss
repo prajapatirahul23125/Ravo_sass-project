@@ -1,0 +1,114 @@
+.banner{
+    width: 55%;
+    height: 100vh;
+    background-image: url('../image/banner.png');
+    background-position:top center;
+	 background-repeat:no-repeat;
+	background-size:cover;
+    // background-color:#E8F8F5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+#particles-js{
+    width: 100%;
+    height: 100%;
+  }
+    canvas.particles-js-canvas-el{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+       
+
+.banner-containt{
+    span{
+        display: inline-block;
+        border-radius: 30px;
+        padding: 8px 20px;
+        background: var(--bg-200);
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    h1{
+        font-size: 45px;
+        color: var(--heading-text);
+        line-height: 1.6;
+        font-weight: 800;
+    }
+    p{
+        font-size: 15px;
+        color: var(--text);
+        line-height: 2;
+    }
+    a{
+        display: inline-block;
+        margin: 40px 0px;                                                                                                                                                       
+        text-align: center;
+        color: var(--white);
+    }
+    .btn{
+        padding: 0 25px;
+        min-height: 50px;
+        line-height: 50px;
+        min-width: 170px;
+        background-image: var( --gradient-color);
+        border-radius: 30px;
+    }   
+}
+.client{ 
+    z-index: 9;
+    .container{
+        position: relative;
+        // position: absolute;
+        // top: 85%;
+        background: #fff;
+        padding: 50px 30px;
+        -webkit-box-shadow: 0px 50px 150px 0px #f1f1f1;
+        box-shadow: 0px 50px 150px 0px #f1f1f1;
+        border-radius: 15px;
+        z-index: 10;
+    }
+    .client-content{
+        display: flex;
+        align-items: center;
+        // display: -webkit-box;
+        h2{
+            font-size: 40px;
+        }
+        p{
+            font-size: 13px;
+            font-weight: 500;
+            display: inline-block;
+            text-align: center;
+        }
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .swiper-slide img {
+        display: block;
+        width: 110px;
+        height: 100%;
+        object-fit: cover;
+      }
+    // .swiper{
+    //     .item{
+    //         img{
+    //             max-width: 110px;
+    //             // margin: auto;
+    //         }
+    //     }
+    // }
+}

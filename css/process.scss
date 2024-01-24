@@ -1,0 +1,85 @@
+.process{
+    background-color: #f3f7f8;
+    .process-heading{
+        text-align: center;
+        padding-top: 100px;
+        span{
+            width: 8%;
+            font-size: 12px;
+            padding: 10px 20px;
+            background-color: var(--bg-200);
+            color: var(--heading-text);
+            // margin-bottom: 30px;
+            display: block;
+            border-radius: 50px;
+            margin: auto;
+            text-transform: uppercase;
+            
+        }
+        h3{
+            font-size: 40px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            background-image: var(--gradient-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+        }
+    }
+    .circule{
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        text-align: center;
+        color: var(--primary-color);
+        background: #FFF;
+        border-radius: 50%;
+        font-size: 30px;
+        margin: 30px 0px ;
+        display: block;
+        margin-left: 110px;
+        position: relative;
+        .circule-2{
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 50%;
+            background: var(--primary-color);
+            box-shadow: 0px 0px 20px rgb(0 0 0 / 6%);
+            box-shadow: 0px 0px 20px rgb(0 0 0 / 6%);
+            color: #fff;
+            position: absolute;
+            top: 0;
+            left: -20px;
+            &::before{
+                content: '';
+                position: absolute;
+                top: -5px;
+                left: -5px;
+                right: -5px;
+                bottom: -5px;
+                border-radius: 50%;
+                background:var(--primary-color);
+                opacity: .3;
+            }
+            span{
+                display: block;
+                font-size: 16px;
+            }
+        }
+    }
+    .process-contant{
+        margin-top: 20px;
+        text-align: center;
+        h3{
+            font-size: 18px;
+            color: var(--heading-text);
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}

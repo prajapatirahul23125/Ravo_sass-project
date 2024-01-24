@@ -1,0 +1,87 @@
+.gallery{
+    padding-top: 100px;
+    background-color: #f3f7f8;
+    position: relative;
+    .gallery-heading{
+        // padding-left: 150px;
+        h3{
+            font-size: 12px;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: var(--bg-200);
+            color: var(--text-700);
+            display: inline-block;
+            border-radius: 50px;
+            letter-spacing: 1px;
+        }
+       
+    }
+    .title{
+        h2{
+            font-size: 40px;
+            // margin-bottom: 50px;
+            background-image: var(--gradient-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+        }
+    }
+    .gallery-menu{
+        display: flex;
+        justify-content: flex-end;
+        ul{
+            width: 70%;
+            display: flex;
+            padding: 10px 10px;
+            border-radius: 50px;
+            // box-shadow: 0px 0px 1px 0px var(--black);
+            box-shadow: 0px 0px 70px rgb(122 126 149 / 15%);
+            // display: inline-block;
+            li{
+                padding-left: 20px;
+                // display: inline-block;
+                list-style: none;
+                a{
+                    color: var(--black);
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+    .grid{
+        display: grid;
+        gap:60px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 330px));
+        // grid-auto-rows: 200px;
+        grid-auto-flow:dense;
+        img{
+            border-radius: 5px;
+        }
+        .grid > div > a >img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .row-2{
+            grid-row: span 2;
+        }
+        .column-2{
+            grid-column: span 2;
+        }
+        .gallery-text{
+            text-align: center;
+            margin-top: 30px;
+            h6{
+                font-size: 16px;
+                margin-bottom: 5px;
+                color: #1a2860;
+            }
+            p{
+                font-size: 15px;
+                color: #616075;
+            }
+        }
+    }
+}
